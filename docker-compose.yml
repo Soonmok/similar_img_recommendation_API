@@ -1,0 +1,9 @@
+version: '2.0'
+
+services:
+        flask:
+                image: soonmok/we_art_api:latest
+                ports:
+                - 5000:5000
+                volumes:
+                - $PWD:/app
